@@ -64,14 +64,25 @@
 // }
 
 // App.jsx
-import RadialInfographic from "./Components/Dynamic RadialInfographic";
+// import RadialInfographic from "./Components/Dynamic RadialInfographic";
 
+// function App() {
+//   return (
+//     <div>
+//       <RadialInfographic />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import Chart2 from "../src/Components/Chart2";
 function App() {
   return (
     <div>
-      <RadialInfographic />
+      <Chart2 />
     </div>
   );
 }
-
 export default App;
