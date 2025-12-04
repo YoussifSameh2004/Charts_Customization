@@ -77,12 +77,77 @@
 // export default App;
 
 
-import Chart2 from "../src/Components/Chart2";
+// import Chart3 from "../src/Components/Chart3";
+// function App() {
+//   return (
+//     <div>
+//       <Chart3 />
+//     </div>
+//   );
+// }
+// export default App;
+
+import React from "react";
+import Chart3 from "../src/Components/Chart3";
+
 function App() {
+  const steps = [
+    {
+      title: "Collect Requirements",
+      text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    },
+    {
+      title: "Collect Requirements",
+      text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    },
+    // {
+    //   title: "Collect Requirements",
+    //   text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    // },
+    // {
+    //   title: "Collect Requirements",
+    //   text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    // },
+    // {
+    //   title: "Collect Requirements",
+    //   text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    // },
+    {
+      title: "Collect Requirements",
+      text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    },
+    {
+      title: "Collect Requirements",
+      text: "Talk to stakeholders, understand constraints and success metrics.",
+      
+    },
+    {
+      title: "Design Solution",
+      text: "Sketch flows, chjhhhhhhhwgggsgsgsggggggggggghhhhhhjjjj",
+    },
+    {
+      title: "Implement & Test",
+      text: "Build iteratively, write tests, run code reviews.",
+      
+    },
+    {
+      title: "Deploy & Monitor",
+      text: "Deploy, monitor KPIs, gather feedback for improvements.",
+      
+    },
+  ];
+
   return (
-    <div>
-      <Chart2 />
+    <div style={{ padding: 40 }}>
+      <Chart3 items={steps} />
     </div>
   );
 }
+
 export default App;
